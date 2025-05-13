@@ -4,7 +4,7 @@
     "xci_name": "fifo_1024",
     "component_reference": "xilinx.com:ip:fifo_generator:13.2",
     "ip_revision": "7",
-    "gen_directory": "../../../../exc6.gen/sources_1/ip/fifo_1024",
+    "gen_directory": "../../../../dvlsi_lab6_prj.gen/sources_1/ip/fifo_1024",
     "parameters": {
       "component_parameters": {
         "Component_Name": [ { "value": "fifo_1024", "resolve_type": "user", "usage": "all" } ],
@@ -382,13 +382,13 @@
       },
       "project_parameters": {
         "ARCHITECTURE": [ { "value": "zynq" } ],
-        "BASE_BOARD_PART": [ { "value": "digilentinc.com:zybo:part0:2.0" } ],
+        "BASE_BOARD_PART": [ { "value": "digilentinc.com:zybo:part0:1.0" } ],
         "BOARD_CONNECTIONS": [ { "value": "" } ],
         "DEVICE": [ { "value": "xc7z010" } ],
         "PACKAGE": [ { "value": "clg400" } ],
         "PREFHDL": [ { "value": "VHDL" } ],
         "SILICON_REVISION": [ { "value": "" } ],
-        "SIMULATOR_LANGUAGE": [ { "value": "VHDL" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
         "SPEEDGRADE": [ { "value": "-1" } ],
         "STATIC_POWER": [ { "value": "" } ],
         "TEMPERATURE_GRADE": [ { "value": "" } ],
@@ -399,7 +399,7 @@
         "IPCONTEXT": [ { "value": "IP_Flow" } ],
         "IPREVISION": [ { "value": "7" } ],
         "MANAGED": [ { "value": "TRUE" } ],
-        "OUTPUTDIR": [ { "value": "../../../../exc6.gen/sources_1/ip/fifo_1024" } ],
+        "OUTPUTDIR": [ { "value": "../../../../dvlsi_lab6_prj.gen/sources_1/ip/fifo_1024" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "." } ],
         "SWVERSION": [ { "value": "2022.2" } ],

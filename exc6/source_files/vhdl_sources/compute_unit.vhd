@@ -62,13 +62,13 @@ begin
                     
                     end if;
                     
-                else                                                             -- Odd row
+                else                                                            -- Odd row
                      if (to_integer(unsigned(pixel_no)) mod N) mod 2 = 0 then    -- Even column -> Red
                         pix_clr <= red;
                         R <= data(4);
                         G <= std_logic_vector(resize((resize(unsigned(data(1)),10)+resize(unsigned(data(3)),10)+resize(unsigned(data(5)),10)+resize(unsigned(data(7)),10))/4,8));
                         B <= std_logic_vector(resize((resize(unsigned(data(0)),10)+resize(unsigned(data(2)),10)+resize(unsigned(data(6)),10)+resize(unsigned(data(8)),10))/4,8));
-                    else                                                         -- Odd column -> Green
+                    else                                                        -- Odd column -> Green
                         pix_clr <= green;
                         G <= data(4);
                         B <= std_logic_vector(resize((resize(unsigned(data(1)),10)+resize(unsigned(data(7)),10))/2,8));
