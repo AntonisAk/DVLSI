@@ -57,7 +57,7 @@ begin
         );
     
         testSequence: process
-        file input_file : text open read_mode is "/home/antonis/Documents/DVLSI/input_32.txt";
+        file input_file : text open read_mode is "/path/to/input.txt";
 
         Variable in_line_buffer : line;
         Variable pixel_buffer : integer;
@@ -95,7 +95,7 @@ begin
         
         
         process(clk)
-            file output_file : text open write_mode is "/home/antonis/Documents/DVLSI/output_32_vhdl.txt";
+            file output_file : text open write_mode is "/path/to/output.txt";
             variable out_line_buffer : line;
         begin
             if rising_edge(clk) then 

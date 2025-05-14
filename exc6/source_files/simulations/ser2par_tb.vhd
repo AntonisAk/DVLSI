@@ -59,7 +59,7 @@ FIFO_INST: ser2par
     
 test_pr:process
 
-    file file_handler : text open read_mode is "/home/antonis/Downloads/input.txt";
+    file file_handler : text open read_mode is "/path/to/input.txt";
     Variable line_buffer : line;
     Variable pixel_buffer : integer;
 begin
