@@ -4,5 +4,5 @@ Lab exercises for the DVLSI course 2025.
 
 **Contributors:**
 - [@AntonisAk](https://github.com/AntonisAk) 
-- [@Vaniosh](https://github.com/) 
+- [@vaniosh](https://github.com/vaniosh)
 
